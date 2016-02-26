@@ -5,5 +5,7 @@ body {
     font-size: 30px; }
   body a {
     color: #36229e; }
+    body a:hover {
+      color: #8a9e22; }
 
 /*# sourceMappingURL=main.css.map */

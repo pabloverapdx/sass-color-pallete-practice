@@ -11,5 +11,8 @@ body {
     }
     a {
       color: $highlighted-text-color;
+      &:hover {
+        color: complement(#36229e);
     }
+  }
 }
