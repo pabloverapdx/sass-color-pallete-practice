@@ -1,0 +1,15 @@
+$background: #d1e277;
+$text-color: complement(#d1e277);
+$highlighted-text-color: darken($text-color, 30%);
+
+
+body {
+    background-color: $background; //#d1e277
+    p {
+      color: $text-color; //text-color is a complement of #d1e277
+      font-size: 30px;
+    }
+    a {
+      color: $highlighted-text-color;
+    }
+}
